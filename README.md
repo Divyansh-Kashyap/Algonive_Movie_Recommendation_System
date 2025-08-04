@@ -41,9 +41,9 @@ This project is a **hybrid Movie Recommendation System** that suggests films bas
 
 ## 📁 Project Structure
 ### 📦 Movie-Recommender-System/
-├── app.py # Streamlit web app
-├── Movie_Recommender.ipynb # Jupyter notebook (model building)
-├── movies.csv # Sample movie metadata
-├── ratings.csv # Sample user ratings
-├── user_feedback.csv # Logs user ratings from the app
-├── README.md # Project documentation
+-├── app.py # Streamlit web app
+-├── Movie_Recommender.ipynb # Jupyter notebook (model building)
+-├── movies.csv # Sample movie metadata
+-├── ratings.csv # Sample user ratings
+-├── user_feedback.csv # Logs user ratings from the app
+-├── README.md # Project documentation
