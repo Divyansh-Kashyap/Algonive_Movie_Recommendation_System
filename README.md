@@ -125,7 +125,7 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 **Divyansh Kashyap**  
 _BTech AIML | Machine Learning Intern | Open to Collaborations_  
-📧 [LinkedIn]((https://www.linkedin.com/in/divyansh-kashyap-231270301/))
+📧 [LinkedIn](https://www.linkedin.com/in/divyansh-kashyap-231270301/)
 
 ---
 
