@@ -9,7 +9,6 @@ This project is a **hybrid Movie Recommendation System** that suggests films bas
   - Trailers
   - Overview
   - Release date
-  - IMDb links
 - A simple **user rating interface** to collect feedback on recommendations
 
 ---
