@@ -1,29 +1,43 @@
 # 🎬 Movie Recommendation System
 
-This is a simple Streamlit web app that recommends movies using:
+This project is a **hybrid Movie Recommendation System** that suggests films based on user preferences using both **Content-Based Filtering** and **Collaborative Filtering**. It includes:
 
-- ✅ **Content-Based Filtering** (based on genres)
-- ✅ **Collaborative Filtering** (based on user similarity)
-
-## 🗂 Included Files
-
-- `app.py` – The Streamlit application
-- `movies.csv` – Sample movie metadata
-- `ratings.csv` – Sample user ratings data
-
-## 🚀 How to Run
-
-1. Install Streamlit:
-```bash
-pip install streamlit
-```
-
-2. Run the app:
-```bash
-streamlit run app.py
-```
-
-3. Use the sidebar to choose recommendation type and get suggestions!
+- A well-structured **Jupyter Notebook** for model exploration and training
+- A fully interactive **Streamlit Web App**
+- **TMDb API integration** for rich movie metadata like:
+  - Posters
+  - Trailers
+  - Overview
+  - Release date
+  - IMDb links
+- A simple **user rating interface** to collect feedback on recommendations
 
 ---
-This example uses a small dummy dataset. Replace it with the MovieLens 1M dataset to scale up!
+
+## 🧠 Recommendation Techniques Used
+
+### 1. 🎯 Content-Based Filtering
+- Uses TF-IDF Vectorization on movie genres
+- Measures cosine similarity between movies
+- Recommends movies similar to the one selected
+
+### 2. 👥 Collaborative Filtering
+- Based on user rating behavior
+- Implements a **K-Nearest Neighbors (KNN)** model on a user-item rating matrix
+- Finds similar users and recommends highly rated movies
+
+---
+
+## 🛠 Tech Stack
+
+| Component         | Tools Used                                  |
+|------------------|----------------------------------------------|
+| Language         | Python 3                                     |
+| Libraries        | `pandas`, `numpy`, `scikit-learn`, `requests`, `streamlit` |
+| Data Source      | [MovieLens Dataset (1M)](https://grouplens.org/datasets/movielens/) |
+| External APIs    | [TMDb API](https://www.themoviedb.org/documentation/api) |
+
+---
+
+## 📁 Project Structure
+
