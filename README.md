@@ -40,10 +40,118 @@ This project is a **hybrid Movie Recommendation System** that suggests films bas
 ---
 
 ## 📁 Project Structure
-### 📦 Movie-Recommender-System/
-- app.py # Streamlit web app
-- Movie_Recommender.ipynb # Jupyter notebook (model building)
-- movies.csv # Sample movie metadata
-- ratings.csv # Sample user ratings
-- user_feedback.csv # Logs user ratings from the app
-- README.md # Project documentation
+
+```
+📦 Movie-Recommender-System/
+├── app.py                  # Streamlit web app
+├── Movie_Recommender.ipynb # Jupyter notebook (model building)
+├── movies.csv              # Sample movie metadata
+├── ratings.csv             # Sample user ratings
+├── user_feedback.csv       # Logs user ratings from the app
+├── README.md               # Project documentation
+```
+
+---
+
+## 💻 Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/movie-recommendation-system.git
+cd movie-recommendation-system
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+You can also install manually:
+```bash
+pip install streamlit pandas numpy scikit-learn requests
+```
+
+---
+
+## 🚀 Run the Streamlit Web App
+
+```bash
+streamlit run app.py
+```
+
+> ⚠️ You'll be prompted to enter your **TMDb API key** at runtime.
+
+To get a TMDb API key:
+- Register at [TMDb](https://www.themoviedb.org/signup)
+- Go to your [API settings](https://www.themoviedb.org/settings/api) and create a developer key
+
+---
+
+## 📓 Explore the Jupyter Notebook
+
+Open `Movie_Recommender.ipynb` to:
+- Understand the logic behind both filtering methods
+- Visualize similarities and performance
+- Customize recommendations
+
+Use:
+```bash
+jupyter notebook Movie_Recommender.ipynb
+```
+
+---
+
+## 🌟 Features
+
+- ✅ TF-IDF-based genre similarity
+- ✅ KNN-based user similarity
+- ✅ TMDb integration:
+  - Movie posters
+  - Overviews and ratings
+  - YouTube trailer links
+  - IMDb page links
+- ✅ User interface for feedback
+- ✅ Feedback saved in `user_feedback.csv`
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots here of the app interface, movie cards, rating slider, etc._
+
+---
+
+## 🔒 Privacy & Notes
+
+- This app doesn't store any personal info or online activity
+- Ratings provided in the app are saved locally for demo/logging purposes
+- Replace `movies.csv` and `ratings.csv` with the full MovieLens 1M data for real-world performance
+
+---
+
+## 📌 Future Improvements
+
+- Use deep learning for hybrid recommendations (e.g., Neural Collaborative Filtering)
+- Add user registration and persistent feedback
+- Integrate IMDb or TMDb login for personalization
+- Host publicly on Streamlit Cloud or Hugging Face Spaces
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first.
+
+---
+
+## 🧑‍💻 Author
+
+**Divyansh Kashyap**  
+_BTech AIML | Machine Learning Intern | Open to Collaborations_  
+📧 [LinkedIn](https://www.linkedin.com/in/divyansh-kashyap)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE)
