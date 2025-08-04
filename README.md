@@ -53,25 +53,6 @@ This project is a **hybrid Movie Recommendation System** that suggests films bas
 
 ---
 
-## 💻 Run Locally
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
-cd movie-recommendation-system
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-You can also install manually:
-```bash
-pip install streamlit pandas numpy scikit-learn requests
-```
-
----
 
 ## 🚀 Run the Streamlit Web App
 
@@ -96,7 +77,7 @@ Open `Movie_Recommender.ipynb` to:
 
 Use:
 ```bash
-jupyter notebook Movie_Recommender.ipynb
+jupyter notebook Movie_Recommendation_System.ipynb
 ```
 
 ---
@@ -115,11 +96,7 @@ jupyter notebook Movie_Recommender.ipynb
 
 ---
 
-## 📸 Screenshots
 
-> _Add screenshots here of the app interface, movie cards, rating slider, etc._
-
----
 
 ## 🔒 Privacy & Notes
 
