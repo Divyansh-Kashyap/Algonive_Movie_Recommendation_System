@@ -129,6 +129,4 @@ _BTech AIML | Machine Learning Intern | Open to Collaborations_
 
 ---
 
-## 📄 License
 
-This project is licensed under the [MIT License](LICENSE)
